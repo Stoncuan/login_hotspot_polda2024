@@ -33,7 +33,7 @@ a.color-btn, form.customform button.color-btn {
 a.color-btn:hover, form.customform button.color-btn:hover {
 	border: 1px solid #92c500;
 	background-color:#666666;
-	color: #fffff;
+	color: #ffff;
 }
 #topbar {
 	background: none repeat scroll 0 0 #012232;
