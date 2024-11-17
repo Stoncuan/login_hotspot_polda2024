@@ -1,0 +1,197 @@
+body {
+background:background:url("bg.png") repeat scroll 0 0 #02C8F2;
+font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+margin: 0;
+padding: 0;
+text-align: center;
+width:100%;
+}
+
+a:link { color: #ffffff;font-weight:normal; text-decoration:none;}
+a:visited {  color: #ffffff;font-weight:normal; text-decoration:none;}
+a:active { color: #ffffff;font-weight:normal; text-decoration:none;}
+a:hover { color: #ff0000; font-weight:bold; text-decoration:none;}
+
+/*sidebar*/
+
+#sidebar { width:200px; /*display: block; background-color:#ffffff; */}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar a, #sidebar h3.cat {
+	width: 120px;
+	display: block;
+	padding: 3px 5px 3px 25px;
+	background: url(img/tab_small.png) center right no-repeat;
+		-moz-border-radius:5px;
+		-moz-border-radius:5px;
+	margin: 5px 0;
+	text-decoration: none;
+        text-align: left;
+}
+
+#sidebar a {
+	color: #7c7c84;
+}
+
+#sidebar a.big, #sidebar h3.cat {
+	background: url(img/tab_big.png) center right no-repeat;
+	padding: 4px 5px 4px 15px;
+        text-align: left;
+	margin: 8px 0;
+}
+
+#sidebar h3 {
+	font-size: 13px;
+}
+
+#sidebar h3.cat {
+	color: #ffffff;
+	text-shadow: 1px 2px 1px #222;
+}
+
+#sidebar a.big {
+	color: #fff;
+}
+
+/*login status*/
+
+#loginstatus {
+	position:absolute;
+	float: right;
+	right:40px;
+	top:35px;
+}
+
+#error {
+    font: 13px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: red;
+    text-shadow: 1px 2px 1px #000000;
+	font-weight:bold;
+}
+
+#onlinestatus {
+    font: 14px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: #02B5FF;
+   font-weight:bold;
+   padding-left:30px;
+}
+
+#logoutstatus {
+    font: 14px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: #02B5FF;
+   	font-weight:bold;
+	padding-left:30px;
+}
+
+#alogin {
+	margin:auto;
+	margin-top:200px;
+	padding: 25px 10px;
+	width:350px;
+	height:75px;
+	display: block; 
+	background:url(img/tab_small.png) repeat center top;
+		-moz-border-radius:10px;
+		-moz-border-radius:10px;
+	font: 12px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: white;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+#logoutstatus {
+	margin:auto;
+	padding: 1px 1px 1px 30px;
+	width:250px;
+	height:250px;
+	display: block; 
+	font: 12px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: white;
+   
+}
+
+#ordinary{
+    font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: grey;
+   
+	font-weight:bold;
+}
+#ordinary a:link{
+    font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: grey;
+    
+	font-weight:bold;
+}
+#ordinary a:hover {
+    font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: white;
+  
+	font-weight:bold;
+}
+
+td.login {
+        font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+       	color: white;
+      
+        width: 175px;
+}
+
+td.status {
+        font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+       	color: #000;
+      
+}
+form input.stbutton{
+		border:none;
+		background:url(img/stbutton.png) top center no-repeat;
+		width:150px;
+		height:57px;
+		margin-left:25px;
+		margin-bottom:18px;
+		cursor:pointer;
+	}
+	form input.lgbutton{
+		border:none;
+		background:url(img/lgbutton.png) top center no-repeat;
+		width:150px;
+		height:57px;
+		margin-left:25px;
+		margin-bottom:18px;
+		cursor:pointer;
+	}
+/*new windows*/
+#loading{
+	position:absolute;
+	width:140px;
+	height:40px;
+	display: block; 
+	
+	font: 12px "Arial", "Helvetica", "Verdana", "sans-serif";
+    color: white;
+   
+	font-weight:bold;
+}
+
+.tutup {
+        font: 11px "Arial", "Helvetica", "Verdana", "sans-serif";
+       	color: grey;
+      
+		cursor:pointer
+}
+
+/*footer*/
+
+#footer {
+	position:absolute;
+	float: right;
+	right:40px;
+	top:94%;
+	text-align: right;
+	color:white;
+	
+}
+#footer a:hover { color: #ff0000; font-weight:bold; text-decoration:none; font: 12px "Arial", "Helvetica", "Verdana", "sans-serif";}
+
+.running{background-color:#F85404;color:#fff;font-size:18px;}
